@@ -131,28 +131,24 @@
         </ul>
     
         <ul class="js-filter uk-child-width-1-1 uk-child-width-1-4@l uk-text-left" uk-grid>
+
+
             <!--=============== product card  ===============-->
-            <li data-color="Inverter" id="info">
+
+            <li data-color="Inverter" id="product1" class="product">
                 <div class="uk-card uk-card-default uk-card-small uk-card-body ">
                     <div class=" toggle uk-card-media-top">
-                        <!--=============== card Slide ===============-->
-                        <div uk-slideshow="animation: push uk-margin-remove" id="info">
 
-                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-                        
+                        <!--=============== card Slide ===============-->
+
+                        <div uk-slideshow="animation: push uk-margin-remove" id="info">
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">   
+
                                 <div class="uk-slideshow-items slides">
-                                    <div>
-                                        <img src="./assets/img/screw/au75.jpg" alt="" uk-cover>
-                                    </div>
-                                    <div>
-                                        <img src="./assets/img/screw/inside.png" alt="" uk-cover>
-                                    </div>
-                                    <div>
-                                        <img src="./assets/img/screw/inverter.png" alt="" uk-cover>
-                                    </div>
-                                    <div>
-                                        <img src="./assets/img/screw/screen1AU-30AMP1.png" alt="" uk-cover>
-                                    </div>
+                                    <div><img src="./assets/img/screw/au75.jpg" alt="" uk-cover></div>
+                                    <div><img src="./assets/img/screw/inside.png" alt="" uk-cover></div>
+                                    <div><img src="./assets/img/screw/inverter.png" alt="" uk-cover></div>
+                                    <div><img src="./assets/img/screw/screen1AU-30AMP1.png" alt="" uk-cover></div>
                                 </div>
                         
                                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
@@ -166,7 +162,7 @@
                     </div>
                     
                         <div class=" uk-card-body uk-width-expand "  >
-                          <div id="product-info">
+                          <div class="product-info">
                             <h3 class="uk-card-title uk-margin-small">AU-75AMP 75hp-10bar</h3>
                             <p class="uk-text uk-margin-small">CODE:fd324 </p>
                             <p class="uk-text uk-margin-small">Price:200$ </p>
@@ -188,7 +184,7 @@
                                 <button class="uk-button uk-button-default uk-button-small" type="button" uk-toggle="target: .toggle">More</button>
                                 <button class="uk-button uk-button-primary uk-button-small">Order Now</button>
                                                          
-                                    <svg onclick="sendProductInfoToWhatsApp()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="currentColor"><path d="M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"></path></svg>
+                                    <svg onclick="sendProductInfoToWhatsApp('product1')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="currentColor"><path d="M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"></path></svg>
                                
                         </div>
                         
@@ -199,25 +195,17 @@
             <!--===============./ product card  ===============-->
             
             <!--=============== product card  ===============-->
-            <li data-color="noInverter" >
+            <li  data-color="noInverter" id="product2" class="product" >
+
                 <div class="uk-card uk-card-default uk-card-small uk-card-body ">
                     <div class="toggle1 uk-card-media-top">
                         <!--=============== card Slide ===============-->
                         <div uk-slideshow="animation: push uk-margin-remove">
-
-                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-                        
-                                <div class="uk-slideshow-items">
-                                    <div>
-                                        <img src="./assets/img/screw/AU-15A.jpg" alt="" uk-cover>
-                                    </div>
-                                    <div>
-                                        <img src="./assets/img/screw/inside without.jpg" alt="" uk-cover>
-                                    </div>
-
-                                    <div>
-                                        <img src="./assets/img/screw/screen1AU-30AMP1.png" alt="" uk-cover>
-                                    </div>
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">                       
+                                <div class="uk-slideshow-items slides">
+                                    <div><img src="./assets/img/screw/AU-15A.jpg" alt="" uk-cover></div>
+                                    <div><img src="./assets/img/screw/inside without.jpg" alt="" uk-cover></div>
+                                    <div><img src="./assets/img/screw/screen1AU-30AMP1.png" alt="" uk-cover></div>
                                 </div>
                         
                                 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
@@ -231,6 +219,7 @@
                     </div>
                     
                         <div class=" uk-card-body uk-width-expand " >
+                          <div class="product-info">
                             <h3 class="uk-card-title uk-margin-small">AU-15A 15hp-16bar</h3>
                             <p class="uk-text uk-margin-small">CODE: ds123</p>
                             <p class="uk-text uk-margin-small">Price: 150$</p>
@@ -247,8 +236,10 @@
                                 net : 190KG 
                                 made by : AUTOSAN
                             </p>
+                          </div>
                                 <button class="uk-button uk-button-default uk-button-small" type="button" uk-toggle="target: .toggle1">More</button>
                                 <button class="uk-button uk-button-primary uk-button-small">Order Now</button>
+                                <svg onclick="sendProductInfoToWhatsApp('product2')" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" fill="currentColor"><path d="M13.1202 17.0228L8.92129 14.7324C8.19135 15.5125 7.15261 16 6 16C3.79086 16 2 14.2091 2 12C2 9.79086 3.79086 8 6 8C7.15255 8 8.19125 8.48746 8.92118 9.26746L13.1202 6.97713C13.0417 6.66441 13 6.33707 13 6C13 3.79086 14.7909 2 17 2C19.2091 2 21 3.79086 21 6C21 8.20914 19.2091 10 17 10C15.8474 10 14.8087 9.51251 14.0787 8.73246L9.87977 11.0228C9.9583 11.3355 10 11.6629 10 12C10 12.3371 9.95831 12.6644 9.87981 12.9771L14.0788 15.2675C14.8087 14.4875 15.8474 14 17 14C19.2091 14 21 15.7909 21 18C21 20.2091 19.2091 22 17 22C14.7909 22 13 20.2091 13 18C13 17.6629 13.0417 17.3355 13.1202 17.0228ZM6 14C7.10457 14 8 13.1046 8 12C8 10.8954 7.10457 10 6 10C4.89543 10 4 10.8954 4 12C4 13.1046 4.89543 14 6 14ZM17 8C18.1046 8 19 7.10457 19 6C19 4.89543 18.1046 4 17 4C15.8954 4 15 4.89543 15 6C15 7.10457 15.8954 8 17 8ZM17 20C18.1046 20 19 19.1046 19 18C19 16.8954 18.1046 16 17 16C15.8954 16 15 16.8954 15 18C15 19.1046 15.8954 20 17 20Z"></path></svg>
 
                         </div>
                         
@@ -257,7 +248,6 @@
                 </div>
             </li>
             <!--===============./ product card  ===============-->       
- 
             <li data-color="Inverter" >
                 <div class="uk-card uk-card-default uk-card-small uk-card-body ">
                                 <!--=============== product card  ===============-->
@@ -318,8 +308,7 @@
             
                             </div>
                             <!--===============./ product card  ===============-->
-            </li>
-                        
+            </li>                       
             <!--=============== product card  ===============-->
             <li data-color="noInverter" >
                             <div class="uk-card uk-card-default uk-card-small uk-card-body ">
@@ -379,8 +368,7 @@
             
                             </div>
             </li>
-            <!--===============./ product card  ===============-->       
-  
+            <!--===============./ product card  ===============-->        
             <!--=============== product card  ===============-->
             <li data-color="Inverter" >
                 <div class="uk-card uk-card-default uk-card-small uk-card-body ">
@@ -441,8 +429,7 @@
 
                 </div>
             </li>
-            <!--===============./ product card  ===============-->
-            
+            <!--===============./ product card  ===============-->           
             <!--=============== product card  ===============-->
             <li data-color="noInverter" >
                 <div class="uk-card uk-card-default uk-card-small uk-card-body ">
@@ -517,25 +504,10 @@
         <script src="assets/js/main.js"></script>
 
         <script>
-            var slideIndex = 0;
     
-            // دالة لإظهار السلايد
-            function showSlides() {
-                var i;
-                var slides = document.getElementsByClassName("slides");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}
-                slides[slideIndex-1].style.display = "block";
-                setTimeout(showSlides, 2000); // تغيير السلايد كل 2 ثانية
-            }
-    
-            // دالة لإرسال صور السلايد ومعلومات المنتج إلى واتساب
-            function sendProductInfoToWhatsApp() {
-                var images = document.querySelectorAll(".slides div img");
-                var productInfo = document.getElementById("product-info").textContent;
+            function sendProductInfoToWhatsApp(productId) {
+                var images = document.querySelectorAll(`#${productId} .slides div img`);
+                var productInfo = document.querySelector(`#${productId} .product-info`).textContent;
                 var message = productInfo + "\n\nصور المنتج:\n";
     
                 images.forEach(function(img) {
@@ -550,7 +522,11 @@
             }
     
             window.onload = function() {
-                showSlides(); // بدء السلايد عند تحميل الصفحة
+                // استدعاء عرض السلايد لكل منتج بشكل منفصل
+                var products = document.querySelectorAll(".product");
+                products.forEach(function(product) {
+                    showSlides(product.id);
+                });
             }
         </script>
 </body>
